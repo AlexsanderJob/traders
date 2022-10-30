@@ -24,6 +24,11 @@
     background: linear-gradient(342deg, rgba(255,255,255,0.0912158613445378) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,0.099619) 100%);
     border: 3px solid #323336;
     border-radius: 46px;
+    transition: all .3s;
+    &:hover {
+      transform: scale(1.02) !important;
+      box-shadow: 0 -2px 23px rgba(#323336, 0.8);
+    }
   }
 
   &-trade {
@@ -165,6 +170,10 @@
         right: 3px;
         background-image: url("../../assets/img/information/mobileMobile.svg");
       }
+    }
+    &:hover {
+      transform: scale(1.02) !important;
+      box-shadow: 0 -2px 23px rgba(#323336, 0.8);
     }
   }
 
