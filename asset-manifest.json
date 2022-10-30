@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/traders/static/css/main.97dbf893.css",
-    "main.js": "/traders/static/js/main.ae5285d8.js",
+    "main.css": "/traders/static/css/main.4cd228c7.css",
+    "main.js": "/traders/static/js/main.81500cdf.js",
     "static/js/787.28cb0dcd.chunk.js": "/traders/static/js/787.28cb0dcd.chunk.js",
     "static/media/spot.svg": "/traders/static/media/spot.a4a95325a45df0c7cf90.svg",
     "static/media/spotMobile.svg": "/traders/static/media/spotMobile.1fac5a168e784a127566.svg",
@@ -29,12 +29,12 @@
     "static/media/line.svg": "/traders/static/media/line.9891751f7a284740d21e.svg",
     "static/media/btn.svg": "/traders/static/media/btn.3c8137542bfd2fafcea89c1be92def37.svg",
     "static/media/scroll.svg": "/traders/static/media/scroll.2c1b0dc65fcc1be0887c1affa5bd6bad.svg",
-    "main.97dbf893.css.map": "/traders/static/css/main.97dbf893.css.map",
-    "main.ae5285d8.js.map": "/traders/static/js/main.ae5285d8.js.map",
+    "main.4cd228c7.css.map": "/traders/static/css/main.4cd228c7.css.map",
+    "main.81500cdf.js.map": "/traders/static/js/main.81500cdf.js.map",
     "787.28cb0dcd.chunk.js.map": "/traders/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97dbf893.css",
-    "static/js/main.ae5285d8.js"
+    "static/css/main.4cd228c7.css",
+    "static/js/main.81500cdf.js"
   ]
 }
