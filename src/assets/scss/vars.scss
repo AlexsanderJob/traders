@@ -1,0 +1,30 @@
+$desktop-xl: 1920px;
+$desktop-xs: 1600px;
+$desktop-l: 1215px;
+$tablet: 1024px;
+$mobile: 768px;
+$mobile-s: 480px;
+
+// colors
+$white: #fff;
+$whiteLight: #F3F3F3;
+$black: #000;
+$blackLight: #0A0A0D;
+
+$blue: #2B40BF;
+$blueLight: #09A2FE;
+$blueDark: #2B40BF;
+$greenLight: #44FACE;
+$green: #00FFA3;
+$greenDark: #00CF6C;
+$gray: #AAAAAA;
+$red: #FF2B77;
+
+$font: "MazzardH", Arial, sans-serif;
+
+
+@mixin content {
+  content: '';
+  position: absolute;
+  display: block;
+}

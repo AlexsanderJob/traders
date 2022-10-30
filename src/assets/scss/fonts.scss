@@ -1,0 +1,16 @@
+@mixin fontFace($FontName, $FontPathName, $FontFileName, $FontWeight) {
+	@font-face {
+		font-family: "#{$FontName}";
+		font-weight: #{$FontWeight};
+		font-style: normal;
+
+		src: url("../fonts/#{$FontPathName}/#{$FontFileName}.eot");
+		src: url("../fonts/#{$FontPathName}/#{$FontFileName}.woff") format("woff"),
+			url("../fonts/#{$FontPathName}/#{$FontFileName}.ttf") format("truetype"),
+			url("../fonts/#{$FontPathName}/#{$FontFileName}.eot?#iefix") format("embedded-opentype");
+	}
+}
+
+@include fontFace("MazzardH", "MazzardH", "MazzardH-SemiBold", 600);
+@include fontFace("MazzardH", "MazzardH", "MazzardH-Medium", 500);
+@include fontFace("MazzardH", "MazzardH", "MazzardH-Regular", 400);

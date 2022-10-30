@@ -1,0 +1,68 @@
+p {
+	margin: 0 0 1em;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+a {
+	outline: 0 none;
+	text-decoration: underline;
+	transition: all 0.3s;
+}
+
+label {
+	cursor: pointer;
+}
+
+img {
+	max-width: 100%;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+
+	th {
+		font-weight: inherit;
+		font-family: inherit;
+	}
+}
+
+h1,
+h2 {
+	font-family: $font;
+	color: inherit;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 86px;
+	line-height: 1.1;
+	margin: 0 0 22px;
+	@media only screen and (max-width: $mobile) {
+		font-size: 49px;
+		text-align: center;
+		margin-bottom: 39px;
+	}
+}
+
+h2, .h2 {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 1.2;
+	margin: 0 0 20px;
+	@media only screen and (max-width: $tablet) {
+		font-size: 35px;
+	}
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 1.43;
+	margin: 0 0 60px;
+}
